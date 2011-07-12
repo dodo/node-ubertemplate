@@ -1,0 +1,17 @@
+{ "name": "ubertemplate"
+, "description": "template engine manager"
+, "version": "0.0.0"
+, "homepage": "https://github.com/dodo/node-übertemplate"
+, "author": "dodo (https://github.com/dodo)"
+, "repository": {"type": "git", "url": "git://github.com/dodo/node-übertemplate.git"}
+, "main": "ubertemplate.js"
+, "engines": {"node": "0.4.x"}
+, "keywords": ["templating", "template"]
+, "scripts": {
+    "install": "node-waf configure build",
+    "update": "node-waf build"}
+, "dependencies": {
+    "coffee-script": ">= 1.1.1"}
+, "devDependencies": {
+    "coffeekup": ">= 0.2.3"}
+}
